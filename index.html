@@ -7,19 +7,33 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Styles for Paragraph 2 */
+        /* Internal CSS - Setting the Blush Pink Background */
+        body {
+            background-color: #fce4ec; /* Classic Blush Pink */
+            color: #5d4037; /* Dark Brown for clear text visibility */
+            padding: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Making the Title very clear */
+        .page-title {
+            color: #ad1457; /* Deep Pink/Berry */
+            font-size: 3rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        /* Internal Styles from the whiteboard */
         .p2-style {
             color: orange;
             font-weight: bold;
         }
 
-        /* Styles for Highlight 2 */
         .h1-style-2 {
-            color: #ad1457; /* Using your brand pink for "colour" */
+            color: #880e4f; 
             text-transform: uppercase;
         }
 
-        /* Styles for Building 2 */
         .h3-style-2 {
             color: #d81b60;
             border-bottom: 2px solid #f8bbd0;
@@ -28,33 +42,44 @@
 </head>
 <body>
 
-    <p style="color: blue; font-style: italic;">
-        Paragraph 1: Our Strawberry Sugar Scrub leaves lips feeling like silk.
-    </p>
+    <h1 class="page-title">LushLips Assignment 3</h1>
 
-    <p class="p2-style">
-        Paragraph 2: Organic Shea Balm provides 24-hour deep hydration.
-    </p>
+    <section>
+        <p style="color: blue; font-style: italic;">
+            Paragraph 1: Our Strawberry Sugar Scrub leaves lips feeling like silk. (Inline)
+        </p>
 
-    <p class="p3-external">
-        Paragraph 3: Vegan Lip Oil is the ultimate "soft-girl" essential.
-    </p>
+        <p class="p2-style">
+            Paragraph 2: Organic Shea Balm provides 24-hour deep hydration. (Internal)
+        </p>
 
-    <hr>
-
-    <h1 style="color: #4a148c;">Highlight 1: Nairobi Born</h1>
-
-    <h1 class="h1-style-2">Highlight 2: 100% Organic</h1>
-
-    <h1 class="h1-external">Highlight 3: Cruelty Free</h1>
+        <p class="p3-external">
+            Paragraph 3: Vegan Lip Oil is the ultimate "soft-girl" essential. (External)
+        </p>
+    </section>
 
     <hr>
 
-    <h3 style="color: #006064; letter-spacing: 2px;">Building 1: The Lab</h3>
+    <section>
+        <h1 style="color: #4a148c;">Highlight 1: Nairobi Born</h1>
 
-    <h3 class="h3-style-2">Building 2: The Studio</h3>
+        <h1 class="h1-style-2">Highlight 2: 100% Organic</h1>
 
-    <h3 class="h3-external">Building 3: The Collective</h3>
+        <h1 class="h1-external">Highlight 3: Cruelty Free</h1>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3 style="color: #006064; letter-spacing: 2px;">Building 1: The Lab</h3>
+
+        <h3 class="h3-style-2">Building 2: The Studio</h3>
+
+        <h3 class="h3-external">Building 3: The Collective</h3>
+    </section>
 
 </body>
 </html>
+      
+
+   
