@@ -1,0 +1,19 @@
+/* --- Assignment 3: External CSS Classes --- */
+
+.p3-external {
+    color: purple;
+    text-decoration: underline;
+}
+
+.h1-external {
+    color: #ad1457; /* LushLips Signature Pink */
+    font-family: 'Georgia', serif;
+}
+
+.h3-external {
+    color: #5d4037;
+    font-style: italic;
+    background-color: #fce4ec;
+    display: inline-block;
+    padding: 5px 10px;
+}
